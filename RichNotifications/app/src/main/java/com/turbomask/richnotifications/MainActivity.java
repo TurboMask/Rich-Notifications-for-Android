@@ -39,8 +39,8 @@ public class MainActivity extends AppCompatActivity
         long interval = 24 * 60 * 60 * 1000;
 
         //This is used for testing
-        first_event_time = System.currentTimeMillis() + 5000;
-        interval = 60 * 60 * 1000;
+        //first_event_time = System.currentTimeMillis() + 5000;
+        //interval = 60 * 60 * 1000;
 
         PendingIntent _pending_intent = CreatePendingIntent();
         AlarmManager _alarm = (AlarmManager)getSystemService(ALARM_SERVICE);
